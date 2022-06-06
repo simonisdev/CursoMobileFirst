@@ -1,5 +1,26 @@
+/* 
+1. Posicionamiento
+2. Modelo de caja (Box model)
+3. Tipografía
+4. Visuales
+5. Otros (Miselaneus)
+*/
+
 /* font-family: 'DM Sans', sans-serif;
 font-family: 'Inter', sans-serif; */
+
+:root {
+    /* Colores */
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D4;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --black: #282623;
+    --grey:#BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #fff;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,10 +28,13 @@ font-family: 'Inter', sans-serif; */
 }
 html {
     font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
 }
 h1 {
-    color: red;
+    color: var(--bitcoin-orange);
+    font-size: 3.6rem;
 }
 h2 {
-    color: green;
+    color: var(--secondary-blue);
+    font-size: 2rem;
 }
