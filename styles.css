@@ -1,0 +1,16 @@
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Inter', sans-serif; */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+h1 {
+    color: red;
+}
+h2 {
+    color: green;
+}
