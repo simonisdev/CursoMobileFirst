@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)" />
 </head>
 <body>
     <header>
-        <img src="./assets/imgs/logo.svg" alt="">
+        <img src="./assets/imgs/logo.svg" alt="" />
         <div class="header--title-container">
             <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
             <p>
@@ -29,6 +30,7 @@
                 <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
             </div>
             <section class="main-tables-container">
+                <!-- TABLA MONEDAS -->
                 <div class="main-currency-table">
                     <p class="currency-table--title">Monedas</p>
                     <div class="currency-table--container">
@@ -55,6 +57,7 @@
                         <p><b>Actualizado: </b>19 Julio 23:45</p>
                     </div>
                 </div>
+                <!-- FIN TABLA MONEDAS -->
                 <!-- TABLA COMISIONES -->
                 <div class="main-commission-table">
                     <p class="commission-table--title">Comisiones</p>
@@ -123,7 +126,7 @@
                 <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
             </div>
             <section class="plans-container--slider">
-                <!-- tarjeta 1 -->
+                <!-- tarjeta plan 1 -->
                 <article class="plans-container--card">
                     <p class="plan-name recommended">Recomendado</p>
                     <div class="plan-info-container">
@@ -133,7 +136,7 @@
                         <button class="plan-card--ca">Escoger este <span></span></button>
                     </div>
                 </article>
-                <!-- tarjeta 2 -->
+                <!-- tarjeta plan 2 -->
                 <article class="plans-container--card">
                     <p class="plan-name basic">Basic</p>
                     <div class="plan-info-container">
@@ -143,7 +146,7 @@
                         <button class="plan-card--ca">Escoger este <span></span></button>
                     </div>
                 </article>
-                <!-- tarjeta 3 -->
+                <!-- tarjeta plan 3 -->
                 <article class="plans-container--card">
                     <p class="plan-name elite">Elite</p>
                     <div class="plan-info-container">
@@ -156,6 +159,17 @@
             </section>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="./assets/imgs/logo_footer.svg" alt="Logo de Batatabit 2020" />
+        </section>
+    </footer>
 </body>
 </html>
